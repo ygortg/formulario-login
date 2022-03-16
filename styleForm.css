@@ -18,8 +18,12 @@ body{
     display: flex;
     background-color: #191816;
     align-content: stretch;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+#logo{
+    padding: 55px;
 }
 
 #imagem{
