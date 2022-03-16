@@ -94,11 +94,11 @@ form > input{
     padding-left: 35px;
 }
 #email{
-    background: url("imagens/images/mail.svg") no-repeat;
+    background: url("images/mail.svg") no-repeat;
     background-position: 10px 12px;
 }
 #senha{
-    background: url("imagens/images/lock.svg") no-repeat;
+    background: url("images/lock.svg") no-repeat;
     background-position: 10px 12px;
 }
 /*-------------------------------------------*/
@@ -132,7 +132,7 @@ label{
     vertical-align: middle;
 }
 #footer input:checked + label:before{
-    background-image: url("imagens/images/check.svg");
+    background-image: url("images/check.svg");
     background-color: var(--primary-color);
 }
 /*--------------------------------------------*/
