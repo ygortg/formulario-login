@@ -77,8 +77,8 @@ form > input{
     background-color: var(--form-background);
     color: var(--text-base);
     border: 1px solid gray;
-    height: 45px;
-    width: 330px;
+    height: 50px;
+    width: 350px;
     border-radius: 5px;
 }
 
