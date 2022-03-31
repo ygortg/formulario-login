@@ -16,12 +16,11 @@
 
 body{
     background: #191816 url("images/side-image.jpg") right no-repeat fixed;
-    background-size: contain 50%;
-    align-content: stretch;
 }
 
-#logo{
-    padding: 55px;
+header{
+    min-height: 150px;
+    background: transparent url('images/logo.svg') no-repeat fixed;
 }
 
 main{
