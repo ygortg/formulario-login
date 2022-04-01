@@ -53,7 +53,8 @@ a:hover{
 
 #head{
     display: flex;
-    margin: 20px 0px 0px 60px;
+    margin: auto;
+    padding-left: 40px;
 }
 
 #title{
@@ -97,7 +98,7 @@ form > input{
 
 label{
     color: var(--text-base);
-    padding-right: 80px;
+    padding-right: 110px;
 }
 
 #footer{
@@ -146,4 +147,86 @@ button{
 #footer > p{
     text-align: center;
     color: var(--primary-color);
+}
+
+@media (max-width: 1025px) {
+    body{
+        background: #24221f none;
+    }
+    header{
+        min-width: 25vw;
+        min-height: 5vh;
+    }
+    main{
+        position: static;
+        transform: none;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+    #head{
+        padding-left: 220px;
+    }
+    #info{
+        padding-left: 210px;
+    }
+}
+
+@media (max-width: 802px){
+    body{
+        background: #24221f none;
+    }
+    header{        
+        min-width: 25vw;
+        min-height: 5vh;
+    }
+    main{
+        position: static;
+        transform: none;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        background: #24221f none;
+    }
+    a{
+        padding-left: 45px;
+    }
+    header{
+        min-width: 25vw;
+        min-height: 5vh;
+    }
+    main{
+        position: static;
+        transform: none;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+    #cabeca{
+        text-align: unset;
+        padding: 0px 15px 20px 0px;
+    }
+    #head{
+        padding-left: 0px;
+    }
+    #info{
+        padding-left: 0px;
+    }
+    form{
+        padding-left: 0px;
+    }
+    #footer > p{
+        text-align: unset;
+    }
+    label{
+        padding-right: 80px;
+    }
+    #register{
+        text-align: center;
+    }
 }
